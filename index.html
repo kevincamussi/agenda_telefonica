@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda de contatos</h1>
+        <form id="formulario">
+            <input type="text" placeholder="Digite o nome do contato" required id="nome">
+            <input type="number" placeholder="Digite o número do contato" required id="telefone">
+            <button type="submit">Adicionar contato</button>
+        </form>
+        <div id="mensagem">
+            
+        </div>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="dados">
+                    
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 40px auto 0 auto;
+    text-align: center;
+    width: 800px;
+    background-image:url(./paper.jpg);
+    padding: 60px;
+    border-radius: 5px;
+}
+
+form input,
+form button{
+    margin: 20px 2px;
+    padding: 5px;
+    width: 200px;
+}
+
+.container table {
+    background-color:rgb(241, 241, 195);
+    margin:0 auto;
+    border: 1px solid #000;
+    width: 615px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+table th {
+    padding: 6px;
+}
+
+table td {
+    padding: 6px;
+    border-top: 1px solid rgb(0, 0, 0 , 0.7);
+}
+
+.msg-erro {
+    margin: 0 auto;
+    background-color: red;
+    width: 615px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
